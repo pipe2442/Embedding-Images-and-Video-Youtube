@@ -16,7 +16,9 @@
     position: absolute;
     height: 32px;
     width: 55px;
-    background-image: image("")
+    background-position: center;
+    background-image:image('images\search-icon.png')
+    
 }
 
 .icons{
@@ -29,9 +31,15 @@
 }
 .videoIcons{
     display:flex;
+    justify-content: space-around;   
+    align-items: baseline; 
+    margin: auto;
+   
+    
     
 }
-#like{
-    flex: 1;
+#likeIcon{
+    margin-left: 150px;
 }
+
 
