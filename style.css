@@ -1,27 +1,23 @@
-.navigation-bar{
+.navigation-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
      
 }
-.search{
+.search {
    
 }
-.searchBar{
+.searchBar {
    width: 562px;
    height: 26px;
 }
 
-.searchBtn{
+.searchBtn {
     position: absolute;
     height: 32px;
-    width: 55px;
-    background-position: center;
-    background-image:image('images\search-icon.png')
-    
+    width: 55px;  
 }
-
-.icons{
+.icons {
 }
 
 .video{
@@ -29,17 +25,21 @@
     justify-content: center;
     
 }
-.videoIcons{
+.videoIcons {
     display:flex;
     justify-content: space-around;   
     align-items: baseline; 
     margin: auto;
-   
-    
-    
 }
-#likeIcon{
+#likeIcon {
     margin-left: 150px;
 }
 
+.avatar {
+    display: flex;
+    justify-content: space-around;   
+    align-items: baseline; 
+    
+
+}
 
