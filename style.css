@@ -1,14 +1,13 @@
 .navigation-bar{
-    font-family: 'Open Sans', sans-serif;
     display: flex;
-    
+    justify-content: space-between; 
 }
-.logo{
-    width: 100%;
-    height: auto;
-    order: 3;
 
+.video{
+    display: flex;
+    justify-content: center; 
 }
-.search{
-    order: 2;
+
+.video1{
+
 }
