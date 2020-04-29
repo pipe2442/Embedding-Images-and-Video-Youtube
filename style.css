@@ -1,6 +1,14 @@
-#logo{
+.navigation-bar{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    
+}
+.logo{
+    width: 100%;
+    height: auto;
+    order: 3;
 
 }
-#navigation-bar{
-    font-family: 'Open Sans', sans-serif;
+.search{
+    order: 2;
 }
