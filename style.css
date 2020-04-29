@@ -34,10 +34,17 @@
 #likeIcon {
     margin-left: 150px;
 }
+#avatarUser{
+
+    align-items: flex-start;
+}
+#youtubeUser{
+    margin-right: 800px;
+}
 
 .avatar {
     display: flex;
-    justify-content: space-around;   
+    justify-content: center;   
     align-items: baseline; 
     
 
