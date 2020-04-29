@@ -24,9 +24,14 @@
 
 .video{
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    
+}
+.videoIcons{
+    display:flex;
+    
+}
+#like{
+    flex: 1;
 }
 
-.video1{
-
-}
