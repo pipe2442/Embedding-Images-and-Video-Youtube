@@ -1,111 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--Icon Library for search button-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navigation-bar">
-        <div class="logo">
-            <img src="https://www.mamifit.co/wp-content/uploads/2019/08/Youtube-Logo.png" alt="Youtube Logo" width="100" height="60">
-        </div>
-        <div class = "search">
-            <input type = "text" class="searchBar" name ="search" placeholder="Search">
-            <button class="searchBtn" type="button">
-        </div>
-        <div class = "icons">
-            <img src = "images\camera-icon.PNG" alt = "camera logo" width="28" height="20">
-            <img src = "images\menu-icons.PNG"  alt = "menu logo" width="25" height="20"">
-            <img src = "images\bell-icon.PNG"   alt = "bell logo" width="20" height="20">
-            <img src = "images\user-icon.PNG"   alt = "user logo" width="38" height="33">
-        </div>
-    </div>
-    <section class = "video">
-        <div class = "video1">
-            <iframe width="1000" height="500" src="https://www.youtube.com/embed/Ic5X_cCM7Vg" frameborder="0" allow="accelerometer; 
-            autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-            </iframe>
-            <h2>VIDEO TITLE</h2>
-            
-                <div class = "videoIcons">
-                    <h3>22,841 views•Apr 28, 2020</h3>
-                    <img src = "images\like-icon.PNG" alt = "like logo"  id="likeIcon"   width="23" height="18">           
-                    <h3>548439783</h3>
-                    <img src = "images\dislike-icon.PNG" alt = "dislike logo"  width="23" height="18">
-                    <h3>87634</h3>
-                    <img src = "images\share-icon.PNG" alt = "share logo"  width="23" height="18">
-                    <h3>Share</h3>
-                    <img src = "images\save-icon.PNG" alt = "save logo" width="23" height="18">
-                    <h3>Save</h3>
-                </div>
-        </div>
-    </section>
-
-    <div class = "avatar">
-
-        <div id="avatarUser">
-            <img src = "images\user-icon.PNG" alt ="user avatar" width="63" height="58">
-            <div id="youtubeUser">
-                <h3>YOUTUBE USER</h3>
-                <h3>5.13M subscribers</h3>
+    <header>
+        <nav class="headerBar">
+            <div>
+                <a href="#"><img class ="logoMenu"src="images\menu-icon.PNG" alt="Youtube Logo" heiht="30" width="30"></a>
+                <a href="#"><img class ="logoYoutube"src="images\logo-icon.PNG" alt="Youtube Logo" heiht="150" width="150"></a>
             </div>
-        </div>
-        <div class = "subscribe">
-            <input type="submit" name = "subscribe" placeholder = "subscribe">
-        </div>
-        
-    </div>
-
-    <section id = "recommendedVideos">
-        <div class = "vid1">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vIaH35-MLsk" 
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
-            <h3>Ttile</h3>
-            <h4>User</h4>
-            <h4>24322 views</h4>
-            <h4>1 year ago</h4>
-        </div>
-        <div class = "vid2">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/4F2m91eKmts" 
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen></iframe>
-            <h3>Ttile</h3>
-            <h4>User</h4>
-            <h4>24322 views</h4>
-            <h4>1 year ago</h4>
-        </div>
-
-        <div class = "vid3">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZX2Hyu5WoFg" frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3>Ttile</h3>
-            <h4>User</h4>
-            <h4>24322 views</h4>
-            <h4>1 year ago</h4>
-        </div>
-        <div class = "vid4">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/4KiH3Fq3olM" frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3>Ttile</h3>
-            <h4>User</h4>
-            <h4>24322 views</h4>
-            <h4>1 year ago</h4>
-        </div>
-        <div class = "vid5">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LoFJVKiUpy4" frameborder="0" 
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3>Ttile</h3>
-            <h4>User</h4>
-            <h4>24322 views</h4>
-            <h4>1 year ago</h4>
-        </div>
-
-
-    </section>
+            <div class="search">
+                <input id="searchBar" type="text" placeholder="Search">
+                <button id="searchButton"><img src="images\search-icon.png" alt="Search Icon"></button>
+            </div>
+            <div class="icons">
+                <img src="images\camera-icon.PNG" alt="Camera Icon" width="28" height="20">
+                <img src="images\menu-icons.PNG" alt="Menu Icon" width="25" height="20">
+                <img src="images\bell-icon.PNG" alt="Bell Icon" width="20" height="20">
+                <img src="images\user-icon.PNG" alt="User Icon" width="38" height="33">
+            </div>
+        </nav>
+    </header>
 </body>
 </html>

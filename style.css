@@ -1,52 +1,19 @@
-.navigation-bar {
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-     
-}
-.search {
-   
-}
-.searchBar {
-   width: 562px;
-   height: 26px;
+    margin: 50px;
 }
 
-.searchBtn {
-    position: absolute;
-    height: 32px;
-    width: 55px;  
+#searchBar{
+    width: 550px;
+    height: 25px;
 }
-.icons {
+::placeholder {
+   padding-left: 10px;
+  }
+#searchButton{
+    float: right;
+    width: 70px;
+    height: 31px;
 }
-
-.video{
-    display: flex;
-    justify-content: center;
-    
-}
-.videoIcons {
-    display:flex;
-    justify-content: space-around;   
-    align-items: baseline; 
-    margin: auto;
-}
-#likeIcon {
-    margin-left: 150px;
-}
-#avatarUser{
-
-    align-items: flex-start;
-}
-#youtubeUser{
-    margin-right: 800px;
-}
-
-.avatar {
-    display: flex;
-    justify-content: center;   
-    align-items: baseline; 
-    
-
-}
-
