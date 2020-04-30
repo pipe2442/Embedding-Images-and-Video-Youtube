@@ -35,6 +35,8 @@ nav{
     justify-content: center;
     text-align: left;
     margin-left: 120px;
+    position: absolute;
+    
     
 }
 .videoTittle {
@@ -76,4 +78,13 @@ nav{
 .recommended {
     float: right
 
+
+}
+.video1{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.video1Text{
+    margin: 20px;
 }
