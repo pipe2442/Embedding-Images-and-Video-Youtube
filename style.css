@@ -1,3 +1,7 @@
+body{
+    margin: 500;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -27,7 +31,8 @@ nav{
     align-items: center;
 }
 .video{
-    display: block;
+    display: inline-block;
+    justify-content: center;
     text-align: left;
     margin-left: 120px;
     
@@ -40,27 +45,21 @@ nav{
     font-weight: 400px;
     margin-top: 10px;
 }
-
-.icons{
-    float: center;
-    display: flex;
-    justify-content: center;
-}
-
-/*.views{
+.videoIcons{
     display: flex;
     justify-content: space-between;
-    font-family: Roboto, Ariel, sans-serif;
-    color: #606060;
-    font-weight: 400px;
-    margin-top: 10px;
+    align-items: center;
+}
+.infoUser{
+    display: flex;
+    float: left;
+    align-items: center;
 
 }
-.icons{
-display: flex;    
-flex-direction: row;
+
+.description{
+    display: flex;
+    float: right;
+    margin-left: 120px;
+    margin-right: 800px;
 }
-.likeIcon{
-    margin-right: ;
-}
-*/ 
