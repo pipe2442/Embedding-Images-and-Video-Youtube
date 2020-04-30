@@ -11,9 +11,44 @@ nav{
 }
 ::placeholder {
    padding-left: 10px;
+   
   }
 #searchButton{
     float: right;
     width: 70px;
     height: 31px;
+    
 }
+.logoMenu{
+    margin: 20px;
+}
+.logos{
+    display: flex;
+    align-items: center;
+}
+.video{
+    display: block;
+    text-align: left;
+    margin-left: 120px;
+}
+.videoTittle {
+    
+    font-family: Roboto, Ariel, sans-serif;
+    color: #030303;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-top: 10px;
+}
+.views{
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto, Ariel, sans-serif;
+    color: #606060;
+    font-weight: 400px;
+    margin-top: 10px;
+
+}
+.icons{
+    margin-right: 300px;
+    align-content: inherit;
+} 
