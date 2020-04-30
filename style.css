@@ -30,6 +30,7 @@ nav{
     display: block;
     text-align: left;
     margin-left: 120px;
+    
 }
 .videoTittle {
     
@@ -39,7 +40,14 @@ nav{
     font-weight: 400px;
     margin-top: 10px;
 }
-.views{
+
+.icons{
+    float: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*.views{
     display: flex;
     justify-content: space-between;
     font-family: Roboto, Ariel, sans-serif;
@@ -49,6 +57,10 @@ nav{
 
 }
 .icons{
-    margin-right: 300px;
-    align-content: inherit;
-} 
+display: flex;    
+flex-direction: row;
+}
+.likeIcon{
+    margin-right: ;
+}
+*/ 
