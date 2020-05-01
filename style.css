@@ -25,6 +25,13 @@ nav{
 }
 .logoMenu{
     margin: 20px;
+    height : 100%; 
+    width : auto;
+}
+.logoYoutube {
+    display: block;
+    height : 150px; 
+    width : 150px;
 }
 .logos{
     display: flex;
