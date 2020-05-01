@@ -37,7 +37,6 @@ nav{
     margin-left: 120px;
     position: absolute;
     
-    
 }
 .videoTittle {
     
@@ -51,21 +50,32 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: Roboto, Ariel, sans-serif;
+    color: #636360;
+    font-size: 14px;
 }
 .infoUser{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+
 }
 
 .description{
     display: flex;
-    float: right;
-    margin-left: 120px;
     margin-right: 800px;
+    margin-left:120px;
+    font-size: 18px;
+    font-family: Roboto, Ariel, sans-serif;
+    color: #030303;
+    margin-bottom: 400px;
 }
 .user {
     display: flex;
+    font-size: 13px;
+    font-family: Roboto, Ariel, sans-serif;
+    color: #606060
 }
   .subscribe input{
     font-size: 20px;
@@ -76,9 +86,7 @@ nav{
     color: white;
 }
 .recommended {
-    float: right
-
-
+    float: right;
 }
 .video1{
     display: flex;
