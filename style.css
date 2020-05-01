@@ -110,6 +110,9 @@ nav{
 }
 .video1Text{
     margin: 20px;
+    font-size: 13px;
+    font-family: Roboto, Ariel, sans-serif;
+    color: #606060
 }
 .subscribe{
     margin-bottom: 500px;
