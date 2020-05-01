@@ -37,6 +37,9 @@ nav{
     display: flex;
     align-items: center;
 }
+.list{
+    list-style-type: none;
+}
 .video{
     display: inline-block;
     justify-content: center;
@@ -71,12 +74,11 @@ nav{
 
 .description{
     display: flex;
-    /*margin-right: 800px;
-    margin-left:120px;*/
     font-size: 14px;
     font-family: Roboto, Ariel, sans-serif;
     color: #030303;
     margin-bottom: 400px;
+    padding-bottom: 0%;    
 }
 .user {
     display: flex;
@@ -88,6 +90,7 @@ nav{
     color: #030303;
     font-family: Roboto, Ariel, sans-serif;
     font-size: 14px;
+    font-weight: bold;
 }
 .subscribe input{
     font-size: 20px;

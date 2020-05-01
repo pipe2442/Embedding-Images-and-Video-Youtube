@@ -1,5 +1,5 @@
 <!--
-    YouTube Clone
+    YouTube Clone.
 -->
 
 <!DOCTYPE html>
@@ -13,25 +13,25 @@
 <body>
     <header>
         <!--
-            Here goes YouTube Navigation bar 
+            Here goes YouTube Navigation bar.
         -->
         <nav class="headerBar">
             <!--
-                Here is YouTube menu and logo
+                Here is YouTube menu and logo.
             -->
             <div class= "logos"> 
                 <a href = "#"><img class = "logoMenu" src = "images/menu-icon.PNG" alt = "Youtube Logo" ></a>
                 <a href = "#"><img class = "logoYoutube" src = "images/logo-icon.PNG" alt = "Youtube Logo"></a>
             </div>
             <!--
-                YouTube search bar coded here
+                YouTube search bar coded here.
             -->
             <div class="search">
                 <input id="searchBar" type="text" placeholder="Search">
                 <button id="searchButton"><img src="images/search-icon.png" alt="Search Icon"></button>
             </div>
             <!--
-                YouTube camera icon, menu icon, bell icon and user icon are embedded by this code
+                YouTube camera icon, menu icon, bell icon and user icon are embedded by this code.
             -->
             <div class="icons">
                 <img src="images/camera-icon.PNG" alt="Camera Icon" width="28" height="20">
@@ -42,10 +42,10 @@
         </nav>
 
         <!--
-            Recommended videos on right side are embedded here
+            Recommended videos on right side are embedded here.
         -->
         <nav class = "recommended">
-            <ul>
+            <ul class="list">
                 <li>
                     <div class = "video1">
                         <iframe width="170" height="100" src="https://www.youtube.com/embed/UMKWijxv0kE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -58,6 +58,9 @@
                     </div>
                 </li>
                 <li>
+                    <!--
+                        Each recommended video its with the same class named video1.
+                    -->
                     <div class = "video1">
                         <iframe width="170" height="100" src="https://www.youtube.com/embed/wZR6QFE2m6o" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p class="video1Text">Youtube User
@@ -138,10 +141,10 @@
         </nav>
     </header>
         <!--
-            Video being watched is embedded with code below
+            Main video in the webpage is embedded with code below.
         -->
     <main>
-        <section class = "video">
+        <div class = "video">
             <iframe width="700" height="400" src="https://www.youtube.com/embed/rSOzN0eihsE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="videoInfo">
                 <div class = "videoTittle">Akon - Beautiful ft. Colby O'Donis, Kardinal Offishall</div>
@@ -159,30 +162,35 @@
 
                 <hr>
 
+                <!--
+                    Here goes user info as subscribers, Youtube username and video description.
+                -->
+
                 <div class="infoUser">
                     <div class = "user">
                     <img src="images/user-icon.PNG" alt="user avatar" width="63" height="58">
                     
                         <div>
                             
-                            <h2 class="userName">Youtube User</h2><br>
+                            <p class="userName">Youtube User</p><br>
 
                             <p class="subscribers">5.13M subscribers</p><br>
 
-                            <h3 class="description">
+                            <div class="description">
                                 Music video by Akon performing Beautiful.(C) 2008 Universal Records & SRC Records Inc.,<br> 
-                                a division of UMG  Recordings
-                            </h3>
-                          
+                                a division of UMG  Recordings.
+                            </div>
                         </div>
                     </div>
+                    <!--
+                        Youtube subscribe red button.
+                    -->
                     <div class = "subscribe">
                         <input type = "submit" name = "subscribe" value = "subscribe">
                     </div>        
                 </div>
             </div>
-        </section>
-
-    </main>  
+        </div>
+    </main>
 </body>
 </html>
