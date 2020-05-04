@@ -2,7 +2,7 @@ body{
     margin: 500;
 }
 
-nav{
+.headerBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,4 +119,19 @@ nav{
 }
 .subscribers{
     margin: 0px;
+}
+#icon1{
+    margin: 20px;
+}
+#icon2{
+    margin: 20px;
+    
+}
+#icon3{
+    margin: 20px;
+    
+}
+#icon4{
+    margin: 20px;
+    
 }
