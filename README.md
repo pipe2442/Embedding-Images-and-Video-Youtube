@@ -3,7 +3,7 @@
 
 Microverse html and css project Youtube clone landing page project.
 
-![Project Screenshot](https://raw.githubusercontent.com/pipe2442/Embedding-Images-and-Video-Youtube/development/images/youtube%20project.PNG)
+![Project Screenshot](https://github.com/pipe2442/Embedding-Images-and-Video-Youtube/blob/development/images/Screenshot.PNG?raw=true)
 
 This project was developed using web technologies and basics in web development.
 
