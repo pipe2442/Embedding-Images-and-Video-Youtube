@@ -120,18 +120,29 @@ body{
 .subscribers{
     margin: 0px;
 }
-#icon1{
+.icon1{
     margin: 20px;
+    width: 28px;
+    height: 20px;
 }
-#icon2{
+.icon2{
     margin: 20px;
+    width: 25px; 
+    height: 20px;
     
 }
-#icon3{
+.icon3{
     margin: 20px;
+    width:20px; 
+    height: 20px;
+}
+.icon4{
+    margin: 20px;
+    width: 38px; 
+    height: 33px;
     
 }
-#icon4{
-    margin: 20px;
-    
+.likeIcons{
+    width: 23px;
+    height: 18px;
 }
